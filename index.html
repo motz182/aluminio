@@ -2,6 +2,8 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Orion Aluminios</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -10,10 +12,10 @@
     <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div class="container-fluid">
-        <header>
+    <header>
+        <div class="container-fluid">
             <figure>
-                <a href="#"><img src="img/orion-logo.png" alt="Logotipo Orion Aluminios"></a>
+                <a href=""><img src="img/orion-logo.png" alt="Logotipo Orion Aluminios"></a>
             </figure>
             <div class="jumbotron">
                 <hgroup>
@@ -35,50 +37,42 @@
                     <li><a href="#contact-form" data-toggle="modal">CONTACTO</a></li>
                 </ul>
             </nav>
-        </header>
-    </div>
+        </div>
+    </header>
 
     <footer>
-        <div class="container-fluid">
+         <div class="container-fluid">
             <p>Orion Aluminios ©2016</p>
         </div>
     </footer>
 
-    #Modal Contact Form
-    <div class="modal fade" id="contact-form">
-        <div class="modal-dialog" role="document">
+    <!-- Modal Contact Form -->
+    <div class="modal fade" id="contact-form" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-sm">
             <div class="modal-content">
                 <div class="modal-header bg-primary">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
-                    <h3 class="modal-title">Formulario de Contacto</h3>
+                    <h3 class="modal-title">Contacto</h3>
                 </div>
                 <div class="modal-body">
                     <h4>Envíanos un mensaje y nos pondremos en contacto contigo</h4>
-                    <div class="row">
-                        <div class="col-md-4 form-group">
-                            <label for="name">Nombre</label>
-                            <input id="name" name="name" class="form-control" type="text" placeholder="Introduce tu nombre"
-                                   onfocus="if (this.placeholder == '') this.placeholder = 'Introduce tu nombre'"/>
-                        </div>
-                        <div class="col-md-4 form-group">
-                            <label for="email">Email</label>
-                            <input id="email" name="email" class="form-control" type="email" placeholder="Introduce tu email"
-                                   onfocus="if (this.placeholder == '') this.placeholder = 'Introduce tu email'"/>
-                        </div>
-                        <div class="col-md-4 form-group">
-                            <label for="phone">Teléfono</label>
-                            <input id="phone" name="phone" class="form-control" type="tel" placeholder="Introduce tu tfno"
-                                   onfocus="if (this.placeholder == '') this.placeholder = 'Introduce tu tfno'"/>
-                        </div>
+                    <div class="form-group">
+                        <input id="name" name="name" class="form-control" type="text" placeholder="Nombre"
+                                   onfocus="if (this.placeholder == '') this.placeholder = 'Nombre'"/>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12 form-group">
-                            <label for="message">Mensaje</label>
-                            <textarea id="message" rows="5" name="email" class="form-control" placeholder="Esqcribe aquí tu mensaje"
+                    <div class="form-group">
+                        <input id="email" name="email" class="form-control" type="email" placeholder="Email"
+                                   onfocus="if (this.placeholder == '') this.placeholder = 'Email'"/>
+                    </div>
+                    <div class="form-group">
+                        <input id="phone" name="phone" class="form-control" type="tel" placeholder="Teléfono"
+                                   onfocus="if (this.placeholder == '') this.placeholder = 'Teléfono'"/>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" name="email" class="form-control" placeholder="Escribe aquí tu mensaje"
                                       onfocus="if (this.placeholder == '') this.placeholder = 'Escribe aquí tu mensaje'"></textarea>
-                         </div>
                     </div>
                 </div>
                 <div class="modal-footer">
