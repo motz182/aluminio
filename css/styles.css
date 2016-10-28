@@ -1,3 +1,16 @@
+.list-inline li {
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+#phone_numbers {
+    margin-right: 20px;
+}
+
+.jumbotron h2 {
+    color: firebrick;
+}
+
 textarea {
     resize: none;
 }
