@@ -1,10 +1,77 @@
-.list-inline li {
-    margin-top: 100px;
-    margin-left: 60px;
+/* Extra small devices (phones, less than 768px) */
+@media (max-width:767px) {
+   body {
+        padding-top: 160px;
+    }
+
+    .navbar {
+        height: 160px;
+    }
+
+    .navbar-brand img {
+        height: 140px;
+    }
+
+    .navbar-header {
+        height: 160px;
+    }
+
+    .navbar-collapse {
+        background-color: lightgray;
+    }
 }
 
-#phone_numbers {
-    margin-right: 20px;
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width:768px) and (max-width:991px) {
+    body {
+        padding-top: 100px;
+    }
+
+    .navbar {
+        height: 100px;
+    }
+
+    .navbar-brand img {
+        height: 80px;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width:992px) and (max-width:1199px) {
+    body {
+        padding-top: 140px;
+    }
+
+    .navbar {
+        height: 140px;
+    }
+
+    .navbar-brand img {
+        height: 120px;
+    }
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    body {
+        padding-top: 160px;
+    }
+
+    .navbar {
+        height: 160px;
+    }
+
+    .navbar-brand img {
+        height: 140px;
+    }
+}
+
+#navbar-phones li {
+    list-style-type: none;
+    font-size: x-large;
+    font-weight: bold;
 }
 
 .jumbotron h2 {
