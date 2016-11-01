@@ -1,19 +1,19 @@
 /* Extra small devices (phones, less than 768px) */
 @media (max-width:767px) {
    body {
-        padding-top: 160px;
+        padding-top: 140px;
     }
 
     .navbar {
-        height: 160px;
-    }
-
-    .navbar-brand img {
         height: 140px;
     }
 
+    .navbar-brand img {
+        height: 120px;
+    }
+
     .navbar-header {
-        height: 160px;
+        height: 140px;
     }
 
     .navbar-collapse {
