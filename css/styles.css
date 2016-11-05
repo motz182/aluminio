@@ -75,7 +75,16 @@ body {
     }
 
     #navbar-phones li p {
-        font-size: 1.5em;
+        font-size: 1em;
+    }
+
+    #navbar-phones li p span {
+        margin-right: 5px;
+    }
+
+    #navbar-email {
+        font-size: 0.6em !important;
+        font-weight: normal !important;
     }
 }
 
@@ -98,7 +107,17 @@ body {
     }
 
     #navbar-phones li p {
-        font-size: 1.8em;
+        font-size: 1.9em;
+        margin: 0;
+    }
+
+    #navbar-phones li p span {
+        margin-right: 10px;
+    }
+
+    #navbar-email {
+        font-size: 1.2em !important;
+        font-weight: normal !important;
     }
 }
 
@@ -108,7 +127,6 @@ body {
 
 #navbar-phones li p {
     font-weight: bold;
-    margin: 0px;
 }
 
 .jumbotron h2 {

@@ -4,7 +4,7 @@
     $phone =$_POST[phone];
     $message =$_POST[message];
 
-    $for =  "mrarmas4@hotmail.com";
+    $for =  "manu@orionaluminios.com";
     $subject = "Mensaje - Contacto www.orionaluminios.com";
     $content = "
     Nombre: ".$name."
