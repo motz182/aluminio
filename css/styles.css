@@ -54,10 +54,6 @@ body {
     #navbar-links {
         padding-top: 20px;
     }
-
-    #navbar-phones li {
-        font-size: 1em;
-    }
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -78,10 +74,9 @@ body {
         padding-top: 60px;
     }
 
-    #navbar-phones li {
-        font-size: 1.2em;
+    #navbar-phones li p {
+        font-size: 1.5em;
     }
-
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -102,14 +97,14 @@ body {
         padding-top: 80px;
     }
 
-    #navbar-phones li {
-        font-size: 1.3em;
+    #navbar-phones li p {
+        font-size: 1.8em;
     }
 }
 
-#navbar-phones li {
-    list-style-type: none;
+#navbar-phones li p {
     font-weight: bold;
+    margin: 0px;
 }
 
 .jumbotron h2 {
