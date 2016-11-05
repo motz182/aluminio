@@ -1,3 +1,18 @@
+body {
+    font-size: 16px;
+}
+
+@media (min-width:768px) {
+    .nav.navbar-nav li a {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .nav.navbar-nav li a:hover {
+        color: #ee3424;
+    }
+}
+
 /* Extra small devices (phones, less than 768px) */
 @media (max-width:767px) {
    body {
@@ -35,6 +50,14 @@
     .navbar-brand img {
         height: 80px;
     }
+
+    #navbar-links {
+        padding-top: 20px;
+    }
+
+    #navbar-phones li {
+        font-size: 1em;
+    }
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -49,6 +72,14 @@
 
     .navbar-brand img {
         height: 120px;
+    }
+
+    #navbar-links {
+        padding-top: 60px;
+    }
+
+    #navbar-phones li {
+        font-size: 1.2em;
     }
 
 }
@@ -66,16 +97,23 @@
     .navbar-brand img {
         height: 140px;
     }
+
+    #navbar-links {
+        padding-top: 80px;
+    }
+
+    #navbar-phones li {
+        font-size: 1.3em;
+    }
 }
 
 #navbar-phones li {
     list-style-type: none;
-    font-size: x-large;
     font-weight: bold;
 }
 
 .jumbotron h2 {
-    color: firebrick;
+    color: #ee3424;
 }
 
 textarea {

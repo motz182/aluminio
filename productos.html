@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Orion Aluminios - Productos</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="modernizr.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <link rel="icon" href="img/orion-favicon.png">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <figure>
+                    <a class="navbar-brand" href=""><img class="img-responsive" src="img/orion-logo.png" alt="Logotipo Orion Aluminios"></a>
+                </figure>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul id="navbar-links" class="nav navbar-nav">
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="empresa.html">EMPRESA</a></li>
+                    <li class="active"><a href="">PRODUCTOS</a></li>
+                    <li><a href="trabajos.html">TRABAJOS</a></li>
+                    <li><a href="#contact-form" data-toggle="modal">CONTACTO</a></li>
+                </ul>
+                <ul id="navbar-phones" class="pull-right hidden-xs">
+                    <li>
+                        <ul>
+                            <li>922 546 287</li>
+                            <li>678 279 410</li>
+                            <li>657 095 081</li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+</header>
+
+<section id="productos">
+    <div class="container-fluid">
+        <h1>Productos</h1>
+    </div>
+</section>
+
+
+<footer>
+    <div class="container-fluid">
+        <p>Orion Aluminios ©2016</p>
+    </div>
+</footer>
+
+<!-- Modal Contact Form -->
+<div class="modal fade" id="contact-form" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <form action="contact.php" method="post">
+                <div class="modal-header bg-primary">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h3 class="modal-title">Contacto</h3>
+                </div>
+                <div class="modal-body">
+                    <h4>Envíanos un mensaje y nos pondremos en contacto contigo</h4>
+                    <div class="form-group">
+                        <input id="name" name="name" class="form-control" type="text" placeholder="Nombre"
+                               onfocus="if (this.placeholder == '') this.placeholder = 'Nombre'"/>
+                    </div>
+                    <div class="form-group">
+                        <input id="email" name="email" class="form-control" type="email" placeholder="Email"
+                               onfocus="if (this.placeholder == '') this.placeholder = 'Email'"/>
+                    </div>
+                    <div class="form-group">
+                        <input id="phone" name="phone" class="form-control" type="tel" placeholder="Teléfono"
+                               onfocus="if (this.placeholder == '') this.placeholder = 'Teléfono'"/>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" name="message" class="form-control" placeholder="Escribe aquí tu mensaje"
+                                  onfocus="if (this.placeholder == '') this.placeholder = 'Escribe aquí tu mensaje'"></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                </div>
+            </form>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+</body>
+</html>
