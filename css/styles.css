@@ -1,31 +1,37 @@
 body {
     font-size: 16px;
+    padding-top: 120px;
 }
 
-@media (min-width:768px) {
-    .nav.navbar-nav li a {
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-
-    .nav.navbar-nav li a:hover {
-        color: #ee3424;
-    }
+.navbar {
+    height: 120px;
 }
+
+.navbar-brand img {
+    height: 100px;
+    margin: 0px;
+}
+
+#navbar-phones li p {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 0px;
+}
+
+#navbar-email {
+    font-size: 0.8em !important;
+    font-weight: normal !important;
+}
+
+#navbar-links li a:hover {
+    background: #e7e7e7;
+    color: #ee3424;
+}
+
+
 
 /* Extra small devices (phones, less than 768px) */
 @media (max-width:767px) {
-   body {
-        padding-top: 120px;
-    }
-
-    .navbar {
-        height: 120px;
-    }
-
-    .navbar-brand img {
-        height: 100px;
-    }
 
     .navbar-header {
         height: 120px;
@@ -36,97 +42,54 @@ body {
     }
 }
 
+@media (min-width:768px) {
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width:768px) and (max-width:991px) {
-    body {
-        padding-top: 100px;
+    #navbar-links li {
+        margin-top: 80px;
     }
 
-    .navbar {
-        height: 100px;
-    }
-
-    .navbar-brand img {
-        height: 80px;
-    }
-
-    #navbar-links {
-        padding-top: 20px;
+    #navbar-links li a {
+        padding: 10px;
+        font-size: 14px;
     }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) and (max-width:1199px) {
-    body {
-        padding-top: 140px;
+
+    #navbar-links li {
+        margin-top: 50px;
     }
 
-    .navbar {
-        height: 140px;
+    #navbar-links li a {
+        padding: 25px;
+        font-size: 16px;
     }
 
-    .navbar-brand img {
-        height: 120px;
-    }
-
-    #navbar-links {
-        padding-top: 60px;
-    }
-
-    #navbar-phones li p {
-        font-size: 1em;
-    }
-
-    #navbar-phones li p span {
-        margin-right: 5px;
-    }
-
-    #navbar-email {
-        font-size: 0.6em !important;
-        font-weight: normal !important;
-    }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    body {
-        padding-top: 160px;
+
+    #navbar-links li {
+        margin-top: 40px;
     }
 
-    .navbar {
-        height: 160px;
-    }
-
-    .navbar-brand img {
-        height: 140px;
-    }
-
-    #navbar-links {
-        padding-top: 80px;
-    }
-
-    #navbar-phones li p {
-        font-size: 1.9em;
-        margin: 0;
-    }
-
-    #navbar-phones li p span {
-        margin-right: 10px;
-    }
-
-    #navbar-email {
-        font-size: 1.2em !important;
-        font-weight: normal !important;
+    #navbar-links li a {
+        padding: 30px;
+        font-size: 17px;
     }
 }
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #ee3424;
+}
+
 
 #navbar-phones li {
     margin-right: 20px;
-}
-
-#navbar-phones li p {
-    font-weight: bold;
 }
 
 .jumbotron h2 {
