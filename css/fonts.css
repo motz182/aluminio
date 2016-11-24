@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Aller';
+    src: url('../fonts/Aller.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Aller.woff') format('woff'),
+         url('../fonts/Aller.ttf')  format('truetype'),
+         url('../fonts/Aller.svg#Aller') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aller-Bold';
+    src: url('../fonts/Aller-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Aller-Bold.woff') format('woff'),
+         url('../fonts/Aller-Bold.ttf')  format('truetype'),
+         url('../fonts/Aller-Bold.svg#Aller-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aller-Light';
+    src: url('../fonts/Aller-Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Aller-Light.woff') format('woff'),
+         url('../fonts/Aller-Light.ttf')  format('truetype'),
+         url('../fonts/Aller-Light.svg#Aller-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aldo-SemiBold';
+    src: url('../fonts/Aldo-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Aldo-SemiBold.woff') format('woff'),
+         url('../fonts/Aldo-SemiBold.ttf')  format('truetype'),
+         url('../fonts/Aldo-SemiBold.svg#Aldo-SemiBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -3,6 +3,11 @@ body {
     padding-top: 120px;
 }
 
+h1 {
+    font-family: "Aldo-SemiBold";
+    font-size: 50px;
+}
+
 .navbar {
     height: 120px;
 }
@@ -13,14 +18,20 @@ body {
 }
 
 #navbar-phones li p {
+    font-family: "Aller-Bold";
     font-size: 1.3em;
     font-weight: bold;
     margin: 0px;
 }
 
 #navbar-email {
+    font-family: "Aller" !important;
     font-size: 0.8em !important;
     font-weight: normal !important;
+}
+
+#navbar-links li a {
+    font-family: "Aldo-SemiBold";
 }
 
 #navbar-links li a:hover {
@@ -50,7 +61,7 @@ body {
 
     #navbar-links li a {
         padding: 10px;
-        font-size: 14px;
+        font-size: 22px;
     }
 }
 
@@ -63,7 +74,7 @@ body {
 
     #navbar-links li a {
         padding: 25px;
-        font-size: 16px;
+        font-size: 25px;
     }
 
 }
@@ -77,7 +88,7 @@ body {
 
     #navbar-links li a {
         padding: 30px;
-        font-size: 16px;
+        font-size: 25px;
     }
 }
 
@@ -95,6 +106,13 @@ body {
 .jumbotron h2 {
     color: #ee3424;
 }
+
+
+#empresa p {
+    font-family: "Aller-Light";
+    font-size: large;
+}
+
 
 textarea {
     resize: none;
