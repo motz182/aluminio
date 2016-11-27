@@ -34,12 +34,9 @@ h1 {
     font-family: "Aldo-SemiBold";
 }
 
-#navbar-links li a:hover {
-    background: #e7e7e7;
+#navbar-links .active a {
     color: #ee3424;
 }
-
-
 
 /* Extra small devices (phones, less than 768px) */
 @media (max-width:767px) {
@@ -62,6 +59,31 @@ h1 {
     #navbar-links li a {
         padding: 10px;
         font-size: 22px;
+    }
+
+    #navbar-links li a:hover {
+        background: #e7e7e7;
+    }
+
+    #navbar-links li a span {
+        border-bottom: 5px solid transparent;
+    }
+
+    #navbar-links li a:hover span {
+        color: #ee3424;
+        border-bottom-color: #ee3424;
+        transition: border 1s linear,
+                    color 1s linear;
+    }
+
+    #navbar-links .active a:focus,
+    #navbar-links .active a:hover {
+        color: #ee3424;
+
+    }
+
+    #navbar-links .active a span{
+        border-bottom: 5px solid #ee3424;
     }
 }
 
@@ -92,27 +114,16 @@ h1 {
     }
 }
 
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:focus,
-.navbar-default .navbar-nav>.active>a:hover {
-    color: #ee3424;
-}
-
-
 #navbar-phones li {
     margin-right: 20px;
 }
 
-.jumbotron h2 {
-    color: #ee3424;
-}
 
-
+/**************************************************** 'EMPRESA' ********************************************************/
 #empresa p {
     font-family: "Aller-Light";
     font-size: large;
 }
-
 
 textarea {
     resize: none;
